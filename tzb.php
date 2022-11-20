@@ -486,7 +486,7 @@ $netarp = get_netarp();
 
 ?><!DOCTYPE html>
 <meta charset="utf-8">
-<title>tz.yyy.sg</title>
+<title>tz</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <style>
@@ -527,7 +527,7 @@ body {
 	</tr>
 	<tr>
 	<td><?php __('Hostname'); ?></td>
-	<td colspan="3">tz.yyy.sg(<?php echo $server_addr; ?>)&nbsp;&nbsp;
+	<td colspan="3">tz(<?php echo $server_addr; ?>)&nbsp;&nbsp;
 		<button class="link" onclick="alert(navigator.userAgent)"><?php __('Client Infomation'); ?>:</button>
 		<span id="remoteip"><?php echo $remote_addr;?></span>
 		<span id="iploc"></span>
